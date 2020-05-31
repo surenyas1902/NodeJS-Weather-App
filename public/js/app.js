@@ -1,5 +1,3 @@
-console.log("Script is working")
-
 const getWeather = (locName, callback) => {
     fetch('http://localhost:3000/weather?address=' + locName).then((response) => {
         response.json().then((data) => {
