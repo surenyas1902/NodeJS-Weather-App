@@ -61,7 +61,7 @@ app.get('/weather', (req, res) => {
                 return
             }
             res.send({
-                forecast: 'The atmosphere in ' + placename + ' is ' + description + '. Actual temperature is ' + temp +' degrees. But it feels like '+ feelslike + ' degrees.',
+                forecast: 'The atmosphere in ' + placename + ' is ' + description + '. Actual temperature is ' + temp +' degrees. But it feels like '+ feelslike + ' degrees. Hope you like it.',
                 location: queryString.address
             })
         })
